@@ -1,4 +1,4 @@
-# Crash Course On Python
+# Crash Course On Python <br>
 Week 1 Hello Python!
 Week 2 Basic Python Syntax
 Week 3 Loops
