@@ -1,6 +1,6 @@
-# Crash Course On Python <br>
-Week 1 Hello Python!
-Week 2 Basic Python Syntax
+# Crash Course On Python
+Week 1 Hello Python! <n>
+Week 2 Basic Python Syntax <n>
 Week 3 Loops
 Week 4 Strings, Lists, Dictionaries 
 Week 5 Object Oriented Programming
