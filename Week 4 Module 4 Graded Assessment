@@ -104,7 +104,6 @@ def combine_guests(guests1, guests2):
   group = guests1
   for users, num in guests2.items():
     if users not in group:
-      #group.update(guests2)
       group[users] = num
   return group
 
