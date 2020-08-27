@@ -1,3 +1,5 @@
+Practice Quiz: Lists
+
 Question 1
 Given a list of filenames, we want to rename all the files with extension hpp 
 to the extension h. To do this, we would like to generate a new list called 
