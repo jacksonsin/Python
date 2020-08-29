@@ -38,13 +38,11 @@ Students in a class receive their grades as Pass/Fail. Scores of 60 or more (out
 
 Ans:
 def exam_grade(score):
-	if score > 95:
-		grade = "Top Score"
-	elif score > 59:
-		grade = "Pass"
-	else:
-		grade = "Fail"
-	return grade
+    if score > 95:
+        return "Top Score"
+    elif score > 59:
+        return "Pass"
+    return "Fail"
 
 print(exam_grade(65)) # Should be Pass
 print(exam_grade(55)) # Should be Fail
@@ -110,11 +108,11 @@ The longest_word function is used to compare 3 words. It should return the word 
 def longest_word(word1, word2, word3):
 
 	if len(word1) >= len(word2) and len(word1) >= len(word3):
-		word = word1
-	elif len(word2) >= len(word3) and len(word2) >= len(word3):
-		word = word2
+	    word = word1
+	elif len(word2) >= len(word3):
+	    word = word2
 	else:
-		word = word3
+	    word = word3
 	return(word)
 
 print(longest_word("chair", "couch", "table"))
@@ -125,7 +123,7 @@ Question 8
 What’s the output of this code?
 
 def sum(x, y):
-		return(x+y)
+    return(x+y)
 print(sum(sum(1,2), sum(3,4)))
 
 Question 9
