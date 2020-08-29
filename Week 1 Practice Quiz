@@ -62,3 +62,33 @@ Ans:
 for i in range(10):
   print(i)
 
+Practice Quiz: Hello World
+
+Question 1
+What are functions in Python?
+
+Ans: Functions are pieces of codes that perform a unit of work
+
+Question 2
+What are keywords in Python?
+
+Ans: Keywords are reserved words that are used to construct instructions
+
+Question 3
+What does the print function do in Python?
+
+Ans: The print function outputs messages to the screen
+
+Question 4
+Output a message that says "Programming in Python is fun!" to the screen.
+
+Ans: print("Programming in Python is fun!")
+
+Question 5
+Replace the ___ placeholder and calculate the Golden ratio: {1+\sqrt{5}}{2} 
+
+Tip: to calculate the square root of a number xx, you can use x**(1/2).
+
+Ans:
+ratio = (1 + 5**(1/2))/2
+print(ratio)
