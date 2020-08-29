@@ -44,3 +44,30 @@ Now try out the Python example yourself:
 
 for i in range(10):
   print("Hello, World!")
+
+"""
+Exercise - Hello, World!
+"""  
+Now that you know what’s going on with this piece of code, try making Python output a different string. Write a Python script that outputs "I'm programming in Python!" to the screen. Remember that you need to use the print() function and use quotation marks to delimiter the string.
+
+print("I'm programming in Python!")
+
+"""
+Exercise - Getting Information from the User
+"""  
+Give it a try yourself! In the following script, change the values of color and thing to have the computer output a different statement than the initial one.
+
+color = "Red"
+thing = "Love"
+print(color + " is the color of " + thing)
+
+"""
+Exercise - Python Can Be Your Calculator
+"""  
+Now it’s your turn to try! Give this a go yourself.
+
+Use Python to calculate (((1+2)∗3)/4)^5
+
+Tip: remember that you can use a**b to calculate a to the power of b.
+
+print(((((1+2)*3)/4)**5))
