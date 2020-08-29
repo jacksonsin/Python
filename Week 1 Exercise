@@ -17,5 +17,30 @@ Installating software on laptops given to new employees when they are hired.
 Periodically scanning the disk usage of a group of fileservers.
 
 """
-Exercise
+Exercise - What is Python?
 """
+Execute the following code and see what happens. Feel free to change it and run it as many times as you want.
+
+friends = ['Taylor', 'Alex', 'Pat', 'Eli']
+for friend in friends:
+    print("Hi " + friend)
+    
+"""
+Exercise - Why is Python relevant to IT?
+"""  
+Let's check whether you soaked all that in with a quick question! Select all options that explain why Python is relevant to today’s IT industry.
+
+Ans: 
+Python scripts are easy to write, understand and maintain
+There are many system adminstration tools built with Python
+Python is available in a wide variety of platforms
+
+"""
+Exercise - Other Languages
+"""  
+Here's how printing "Hello, World" 10 times looks in Bash and Powershell:
+
+Now try out the Python example yourself:
+
+for i in range(10):
+  print("Hello, World!")
