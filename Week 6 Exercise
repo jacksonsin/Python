@@ -1,0 +1,43 @@
+"""
+Exercise - Problem Statement
+"""
+
+Restate the problem statement from the video example.
+
+Ans: We we to process a list of Events object using their attributes to generate a report that lists all users currently logged in to the machines.
+
+"""
+Exercise - Research
+"""
+There are two standard methods to sort a list in Python, sort and sorted. What is the difference between these two methods?
+
+Ans: sorted return a new list, while sort returns the same list reogranized.
+
+"""
+Exercise - Planning
+"""
+Having a plan is half the battle. When planning out your program, why is it often a good idea to separate functions?
+
+Ans: 
+It simplifies making changes and fixing bugs
+It allows us to use the same function for multiple purposes.
+
+"""
+Exercise - Writing the Script
+"""
+It’s important to know why we’ve written a function. In the example used in the video (shown here), what is the purpose of “if len(users) > 0:” ?
+
+def generate_report(machines):
+  for machine, users in machines.items():
+    if len(users) > 0:
+      user_list = ", ".join(users)
+      print("{}: {}".format(machine, user_list))
+
+Ans: Ensure that we don't print any machines where nobody is currently logged in
+
+"""
+Exercise - Putting It All Together
+"""
+Which line from the program we just wrote combines each logged-in user attribute into one variable?
+
+Ans: user_list=",".join(users)
